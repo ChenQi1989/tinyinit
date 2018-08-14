@@ -1,0 +1,9 @@
+tinyint
+=======
+
+A tiny init manager that only do things that *MUST* be done by an init.
+
+1) What things *MUST* be done by an init?
+
+	1a) wait for all children
+	1b) register signals (maybe optional?)
